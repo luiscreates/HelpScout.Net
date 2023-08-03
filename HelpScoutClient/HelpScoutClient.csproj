@@ -1,21 +1,22 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net451;netstandard2.0</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageLicenseUrl>https://licenses.nuget.org/MIT</PackageLicenseUrl>
     <License>https://licenses.nuget.org/MIT</License>
-    <Authors>Selz.com</Authors>
-    <Company>Selz.com</Company>
-    <Product>HelpScoutNet</Product>
+    <Authors>mightyintrovert.com</Authors>
+    <Company>mightyintrovert.com</Company>
+    <Product>HelpScout.Net</Product>
     <Description>HelpScoutNet is a .NET class library that provides an easy-to-use interface for the helpscout.net web api v2.0</Description>
-    <Version>7.1.0</Version>
+    <Version>7.2.0</Version>
     <PackageIconUrl>http://github-jobs.s3.amazonaws.com/ee1135c8-ed33-11e4-8499-9b433ae54d8f.png</PackageIconUrl>
-    <RepositoryUrl>https://github.com/Selz/HelpScoutNet</RepositoryUrl>
-    <PackageProjectUrl>https://github.com/Selz/HelpScoutNet</PackageProjectUrl>
-    <PackageId>HelpScoutNet</PackageId>
+    <RepositoryUrl>https://github.com/luiscreates/HelpScout.Net</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/luiscreates/HelpScout.Net</PackageProjectUrl>
+    <PackageId>HelpScout.Net</PackageId>
     <AssemblyName>HelpScoutNet</AssemblyName>
     <RootNamespace>HelpScout</RootNamespace>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <!--<TargetFrameworks>netstandard2.0; net461</TargetFrameworks>-->
   </PropertyGroup>
 
@@ -26,9 +27,9 @@
 
   <ItemGroup>
 
-    <PackageReference Include="Microsoft.CSharp" Version="4.5.0" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
 
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="System.Net.Http" Version="4.3.4" />
   </ItemGroup>
 
